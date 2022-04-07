@@ -1,0 +1,21 @@
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+main {
+  position: absolute;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: (12, 1fr);
+}
+
+section {
+  height: 100vh;
+  color: white;
+  width: 100%;
+  font-size: 3vw;
+  line-height: 100vh;
+  font-family: "Courier New", Courier, monospace;
+}
